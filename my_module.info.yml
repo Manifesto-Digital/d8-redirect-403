@@ -1,0 +1,4 @@
+name: Unpublished node redirects
+type: module
+description: Redirect user on visiting unpublished nodes
+core: 8.x
