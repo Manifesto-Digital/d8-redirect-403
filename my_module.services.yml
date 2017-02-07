@@ -1,0 +1,6 @@
+services:
+ my_module.unpublished_event.response_subscriber:
+   class: Drupal\my_module\ResponseSubscriber
+   arguments: ['@current_user']
+   tags:
+     - { name: event_subscriber }
