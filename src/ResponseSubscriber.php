@@ -2,7 +2,11 @@
 
 namespace Drupal\my_module;
 
-use Symfony\Component\EventDispatcher\EventSubscriberInterface;use Symfony\Component\HttpKernel\KernelEvents;
+use Drupal\Core\Session\AccountInterface;
+use Symfony\Component\HttpKernel\KernelEvents;
+use Symfony\Component\HttpFoundation\RedirectResponse;
+use Symfony\Component\HttpKernel\Event\FilterResponseEvent;
+use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 /**
  * Class ResponseSubscriber.
